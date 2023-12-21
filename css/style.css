@@ -1,0 +1,114 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins Regular";
+}
+.container {
+     width: 100%;
+     height: 624px;
+     background-color: #fff;
+}
+.container .logo {
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+}
+.img-1 {
+     height: 60px;
+     padding: 10px 10px;
+}
+.img-2 {
+     height: 64px;
+     padding: 10px 10px;
+}
+.row {
+     width: 100%;
+     height: 86.5%;
+     padding: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+.img-thumbnails {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.img-thumbnails img {
+     /* width: 80%; */
+     height: 70%;
+     flex-shrink: 0;
+     /* background: url(), lightgray 50% / cover no-repeat; */
+}
+.form-group {
+     width: 40%;
+     height: 100%;
+     text-align: center;
+}
+h1 {
+     color: #2e2f85;
+     font-family: "Poppins Extrabold";
+     font-size: 40px;
+     text-align: center;
+     padding: 35px;
+}
+.title {
+     color: #2e2f85;
+     padding: 25px;
+     font-weight: 600;
+     text-align: justify;
+}
+.link-akun {
+     color: #2e2f85;
+     font-weight: 800;
+}
+.link-akun a {
+     color: red;
+     font-family: "Poppins Extrabold";
+     text-decoration: none;
+     font-weight: 900;
+}
+button {
+     background-color: #2e2f85;
+     color: #fff;
+     width: 85%;
+     height: 60px;
+     border: 0;
+     border-radius: 10px;
+     font-weight: 800;
+     margin: 15px;
+}
+button:hover {
+     background-color: #1c1c52;
+     color: #fff;
+}
+.form-input {
+     background: #d9d9d9;
+     width: 80%;
+     height: 30px;
+     margin: 10px;
+     padding: 15px;
+     border-radius: 15px;
+     text-align: center;
+     margin-left: 35px;
+}
+.form-input i {
+     color: #2e2f85;
+     font-size: 25px;
+     margin-right: 10px;
+}
+.form-control-1 {
+     border: none;
+     border-bottom: #d9d9d9;
+     width: 90%;
+     height: 40px;
+     background: #d9d9d9;
+     font-family: 'Poppins Regular';
+     font-weight: 800;
+     font-size: 17px;
+}
+.form-control-1:focus {
+     outline: none;
+}
